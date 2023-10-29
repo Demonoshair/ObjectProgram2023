@@ -12,11 +12,11 @@ class Student:
         self.happy -= 5
     def to_sleep(self):
         print("Time to sleep!")
-        self.happy += 10
+        self.happy += 5
     def to_chill(self):
         print("Time to chill!")
         self.progress -= 0.1
-        self.happy += 5
+        self.happy += 1.5
     def to_life(self):
         if self.happy<-0.5:
             print("depression...")
